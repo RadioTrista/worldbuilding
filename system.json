@@ -1,0 +1,49 @@
+{
+  "id": "worldbuilding",
+  "version": "0.8.2",
+  "title": "Simple World-Building",
+  "url": "https://github.com/foundryvtt/worldbuilding/",
+  "description": "A minimalist game system which provides configurable Actor and Item templates to support free-form system agnostic game-play.",
+  "license": "LICENSE.txt",
+  "authors": [
+    {
+      "name": "Atropos",
+      "url": "https://foundryvtt.com",
+      "flags": {}
+    }
+  ],
+  "esmodules": [
+    "module/simple.js"
+  ],
+  "styles": [
+    {
+      "src": "styles/simple.css"
+    }
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json",
+      "flags": {}
+    },
+    {
+      "lang": "pl",
+      "name": "Polski",
+      "path": "lang/pl.json",
+      "flags": {}
+    }
+  ],
+  "compatibility": {
+    "minimum": "10",
+    "verified": "14.364"
+  },
+  "grid": {
+    "units": "m"
+  },
+  "primaryTokenAttribute": "health",
+  "secondaryTokenAttribute": "power",
+  "manifest": "https://raw.githubusercontent.com/foundryvtt/worldbuilding/master/system.json",
+  "download": "https://github.com/foundryvtt/worldbuilding/archive/refs/tags/release-082.zip",
+  "flags": {}
+}
